@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Lato, sans-serif;
+  }
+  
+  .wrapper {
+    margin: 0 auto;
+    max-width: 1020px;
+    overflow: hidden;
+    height: 100%;
+    position: relative;
+  }
+  
+  a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #f06c64;
+  }
+  
+  .get_a_quote {
+    height: 654px;
+    background-color: #f06c64;
+    border-bottom: 6px solid #ea676b;
+  }
+  
+  .quote_title {
+    padding: 68px 40px 0 40px;
+  }
+  
+  .quote_title h2 {
+    font-size: 30px;
+    line-height: 18px;
+    letter-spacing: -0.008em;
+    color: #f0d8d9;
+    font-weight: 900;
+  }
+  
+  .quote_title p {
+    font-size: 18px;
+    line-height: 30px;
+    color: #f0d8d9;
+    font-weight: 300;
+    padding-top: 27px;
+    text-align: justify;
+  }
+  
+  .quote_content {
+    display: flex;
+    padding: 45px 0 0 40px;
+  }
+  
+  .contact_form {
+    width: 619px;
+  }
+  
+  .contact_form input,
+  .contact_form textarea {
+    width: 100%;
+    padding: 8px 14px;
+    border-radius: 5px;
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: -0.03em;
+    color: #f0d8d9;
+    background: #d6564f;
+    font-weight: 300;
+    margin-bottom: 16px;
+    border: none;
+    outline: none;
+  }
+  
+  .contact_form input::placeholder,
+  .contact_form textarea::placeholder {
+    color: #f48c8f;
+  }
+  
+  .contact_form textarea {
+    height: 200px;
+    width: 100%;
+    padding: 6px 16px;
+    border-radius: 5px;
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: -0.1em;
+    word-spacing: -0.1em;
+    color: #f0d8d9;
+    background: #d6564f;
+    font-weight: 300;
+    margin-bottom: 16px;
+    border: none;
+    outline: none;
+    resize: none;
+  }
+  
+  .contact_form button {
+    font-family: Lato, sans-serif;
+    border-radius: 20px;
+    width: 110px;
+    height: 38px;
+    font-size: 16px;
+    line-height: 38px;
+    text-align: center;
+    color: #f8bbbbf3;
+    background: #e74c4c;
+    font-weight: 900;
+    border-style: ridge;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+  
+  .contact_form button:hover {
+    background: #4c5266;
+  }
+  
+  .contact_info {
+    width: 320px;
+    padding-left: 20px;
+  }
+  
+  .contact_info h3 {
+    font-size: 18px;
+    line-height: 18px;
+    color: #f0d8d9;
+    font-weight: 900;
+  }
+  
+  .contact_info p {
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: -0.03em;
+    color: #f0d8d9;
+    font-weight: 400;
+    padding-top: 9px;
+    text-align: justify;
+  }
+  
+  .contact_links {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    font-size: 12px;
+    line-height: 12px;
+    color: #f0d8d9;
+    font-weight: 400;
+    padding-top: 13px;
+  }
+  
+  .contact_links a {
+    padding-left: 2px;
+    margin-bottom: 1px;
+  }
+  
+  .contact_links a:hover {
+    cursor: pointer;
+    color: black;
+  }
+  
+  .contact_icon::before {
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    background-size: cover;
+    content: '';
+    margin: 10px 10px 0 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  
+  .contact_map::before {
+    background-image: url('assets/img/singolo3/location.png');
+  }
+  
+  .contact_tel::before {
+    background-image: url('assets/img/singolo3/old-phone.png');
+  }
+
+  .contact_mail::before {
+    background-image: url('assets/img/singolo3/mail.png');
+  }
+
+  footer {
+    height: 76px;
+    background-color: #2d303a;
+  }
+  
+  .footer_last {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    padding: 0 36px 0 41px;
+  }
+  
+  .copyright {
+    font-size: 12px;
+    line-height: 18px;
+    color: #666d89;
+    font-weight: 400;
+  }
+  
+  .footer_icons {
+    padding: 3px 0 0 0;
+  }
+  
+  .icon {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-size: cover;
+    margin-right: 2px;
+  }
+  
+  .icon_facebook {
+    background-image: url('assets/img/singolo2/facebook.png');
+  }
+  
+  .icon_facebook:hover {
+    cursor: pointer;
+  }
+  
+  .icon_google {
+    background-image: url('assets/img/singolo2/google.png');
+  }
+  
+  .icon_google:hover {
+    cursor: pointer;
+  }
+  
+  .icon_twitter {
+    background-image: url('assets/img/singolo2/twitter.png');
+  }
+  
+  .icon_twitter:hover {
+    cursor: pointer;
+  }
+  
+  .icon_linkedin {
+    background-image: url('assets/img/singolo2/linkedin.png');
+  }
+  
+  .icon_linkedin:hover {
+    cursor: pointer;
+  }
