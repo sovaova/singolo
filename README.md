@@ -1,1 +1,1 @@
-[singolo](https://sovaova.github.io/singolo)
+[singolo](https://sovaova.github.io/singolo/index.html)
